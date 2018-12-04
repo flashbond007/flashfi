@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>pizza site</title>
+<style>
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width:56;
+        border-radius:50%;
+         
+    }
+    body{
+        background-color:orangered;
+    }
+    .box1{
+        background-color: black;
+    }
+    .VEGGIE{
+        float: left;
+        width: 33.3%;
+        background-color: deepskyblue;
+    }
+    .non-veggie{
+        float: left;
+        width: 33.3%;
+        background-color: yellowgreen;
+    }
+     .mania{
+        float: left;
+        width: 33.3%;
+        background-color: yellow;
+    }
+    a{
+        text-decoration: none;
+        color:black;
+    }
+    a:hover{
+        color:red;
+    }
+    #about{
+        float: left;
+        width: 70%;
+        background-color: yellow;
+    }
+    #side{
+        float: right;
+        width:30%;
+        background-color: greenyellow;
+    }
+    .abc label{
+        display: block;
+    }
+    .x
+    abc{
+        padding: 20px;
+    }
+    h2{
+        text-decoration: underline;
+    }
+   
+</style>
+</head>
+<body>
+    <div class="box1">
+        <img src="fl0.png"></div>    
+<table style="background-color: forestgreen" cellpadding="12" cellspacing="33" align=center>
+<tr>
+<th>STORE NEARBY</th>
+<th>MY ORDERS</th>
+<th>CONTACT US</th>
+<th>REVIEW</th>
+<th>QUERIES</th>
+    </tr>
+    </table>    
+<div class="VEGGIE">
+<h1>Veggi's menu</h1>
+<ul>
+    <li><h2>farm house</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+    <li><h2>paneer makhni</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+    <li><h2>digital veggie</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+    <li><h2>fresh veggie</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+    <li><h2>mexican grill</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+    <li><h2>veg mix</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+    </ul></div>
+<div class="non-veggie">
+<h1>Non-Veggie's menu</h1>
+<ul>
+    <li><h2>peri peri</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+    <li><h2>chicken fiesta</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+    <li><h2>chicken tikka</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+    <li><h2>chunky-chicken</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+    <li><h2>pepper barbeque chicken</h2><img src="Farmhouse.jpg"height="93"width="93"></li> 
+    <li><h2>chicken lajawab</h2> <img src="Farmhouse.jpg"height="93"width="93"></li>
+    </ul></div>
+<div class="mania"> 
+    <h1>Pizza Mania</h1>
+    <ul>
+        <li><h2>onion</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+        <li><h2>cheesy</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+        <li><h2>capsicum</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+        <li><h2>paneer special</h2><img src="Farmhouse.jpg"height="93"width="93"></li>
+        <li><h2>pepper and onion</h2><img src="Farmhouse.jpg"height="93"width="93"></li> 
+        <li><h2>tikka paneer</h2> <img src="Farmhouse.jpg"height="93"width="93"></li>
+    </ul></div>
+    <hr>
+    <hr>
+<div id="about">
+<h1>ABOUT US</h1>
+<p>we are fastest delivery pizza company all over the world .Jubilant FoodWorks Limited (the Company) is a Jubilant Bhartia Group Company. The Company was incorporated in 1995 and initiated operations in 1996. The Company got listed on the Indian bourses in February 2010. Mr. Shyam S. Bhartia, Mr. Hari S. Bhartia and Jubilant Consumer Pvt. Ltd. (formerly Jubilant Fresh Pvt. Ltd.) are the Promoters of the Company. The Company & its subsidiary operates Domino's Pizza brand with the exclusive rights for India, Nepal, Bangladesh and Sri Lanka. The Company is market leader in the pizza segment with a network of 1,128 Domino’s Pizza restaurants across 265 cities in India (as on January 19, 2018).The Company is the market leader in the organized pizza market in the pizza home delivery segment in India, The Company has strengthened its portfolio by entering into an agreement with Dunkin' Donuts Franchising LLC, for developing the Dunkin' Donuts brand and operating restaurants in India, </p>
+ <pre>NO ONE CAN MATCH OUR SPEED </pre>
+    <p>we have a world record of fastest delivery zak zak ,HAIL FLASH</p>    
+    </div>
+<div id="side">
+<h1>GIFT CARDS</h1>
+<p>Gift yr family different kinds of gift card in different ocassions</p>
+    <ul>
+    <li>happy aniversary<img src="carousel12.png"height="150"width="150"></li>
+    <li>merry christmas<img src="xm.png"height="150"width="150"></li>
+    <li>Hey it's yr birthday<img src="bi.png"height="150"width="150"></li>
+    <li>Happy Diwali<img src="di.png"height="150"width="150"></li>
+    <li>EID MUBARAK<img src="ei.png"height="150"width="150"></li>    
+    </ul>
+    </div>
+    <form class="abc">
+    <h1>ANY COMMENTS</h1>    
+    <label>Enter yr name</label>
+    <input type="text" placeholder="enter name">
+        <div>
+    <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required></div>
+    <div>
+        <label>COMMENTS</label>
+        <textarea id="message" name="mesage" placeholder="pls comments"></textarea>
+    </div>
+    <div>
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+            </label></div>
+
+    <p>By creating an account you agree to our <a href="tandc.html" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="button" class="cancelbtn">Cancel</button>
+      <button type="submit" class="signupbtn">Sign Up</button>
+        </div></form><hr><hr>
+    <h2>FOLLOW US ON </h2>
+    <ul>
+    <li><a href="https://www.instagram.com/kingaadarsh/?hl=en">INSTAGRAM<img src="in.jpg"heigth="73"width="73"></a></li>
+    <li><a href="https://www.facebook.com/aadarsh.tiwari20">FACEBOOK<img src="fb.jpg"height="73"width="73"></a></li>
+    <li><a href="https://www.linkedin.com/in/aadarsh-tiwari-03977616a/">LINKEDIN<img src="lin.png"height="73"width="73"></a></li>    
+    </ul>
+    <footer style="text-align: center;color: black">COPYRIGHT &copy;2018 FLASH SITE</footer>
+</body>
+</html>
