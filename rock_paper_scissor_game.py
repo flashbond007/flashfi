@@ -15,6 +15,7 @@ def repeat():
 		print('u won')
 	elif a==sc and get==pa:
 		print('u won')
+		
 	elif a==pa and get==rk:
 		print('u won')
 	elif a==pa and get==pa:
