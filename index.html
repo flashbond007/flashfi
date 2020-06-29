@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>calc</title>    
+</head>
+<script type="text/javascript">
+function calculator(n1){
+    calc1.txt1.value = calc1.txt1.value + n1;
+} 
+//function del(n2){
+//    var ans = calc1.txt1.value;
+//    calc1.txt1.value = ans.substr(0, ans.length - 1);
+//}    
+</script>    
+<body>
+<form name=calc1>
+<input type="text" name="txt1"><br>
+<input type="button" name="but9" value=9 onclick="calculator(but9.value)">
+<input type="button" name="but8" value=8 onclick="calculator(but8.value)">
+<input type="button" name="but7" value=7 onclick="calculator(but7.value)"><br>
+<input type="button" name="but6" value=6 onclick="calculator(but6.value)">
+<input type="button" name="but5" value=5 onclick="calculator(but5.value)">
+<input type="button" name="but4" value=4 onclick="calculator(but4.value)"><br>
+<input type="button" name="but3" value=3 onclick="calculator(but3.value)">
+<input type="button" name="but2" value=2 onclick="calculator(but2.value)">
+    <input type="button" name="but1" value=1 onclick="calculator(but1.value)"><br>
+    <input type="button" name="but0" value=0 onclick="calculator(but0.value)">
+    <input type="button" name="butadd" value=+ onclick="calculator(butadd.value)">
+    <input type="button" name="butsub" value=- onclick="calculator(butsub.value)"><br>
+    <input type="button" name="butdiv" value=/ onclick="calculator(butdiv.value)">
+    <input type="button" name="butmul" value=* onclick="calculator(butmul.value)">
+    <input type="button" name="buteq" value== onclick="txt1.value=eval(txt1.value)"><br>
+    <input type="button" name="butpot" value=. onclick="calculator(butpot.value)">
+    <input type="button" name="butdel" value=<== onclick="del(butdel.value)">
+   
+    </form>
+    
+    </body>
+</html>
