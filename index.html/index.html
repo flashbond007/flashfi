@@ -1,0 +1,69 @@
+<html>
+<head>
+    <title>calc1</title>
+<style>
+    .button {
+  background-color: hotpink;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+    .feild{
+        display: inline-block;
+        padding: 15px 32px;
+  font-size: 16px;
+  margin: 4px 2px;
+    }  
+    .cal{
+        text-align: center;
+        display: inline-block;
+        
+    }
+    .h1{
+        font-family:sans-serif;
+        text-align: center;
+    }
+    
+    </style>
+</head>
+<body>
+<h1>Simple calc</h1>
+<div class="cal">
+    <img src="images.jpg">
+<form name="frm">
+<input type=text class="feild" placeholder="Jai Shree Ram" name="txt">    <br>
+
+    <input type=button class="button" value="9"  onclick="frm.txt.value += '9'">
+    <input type=button class="button" value="8" onclick="frm.txt.value += '8'">
+    <input type=button class="button" value="7" onclick="frm.txt.value += '7'"><br>
+    <input type=button class="button" value="6" onclick="frm.txt.value += '6'">
+    <input type=button class="button" value="5" onclick="frm.txt.value += '5'">
+    <input type=button class="button" value="4" onclick="frm.txt.value += '4'"><br>
+    <input type=button class="button" value="3" onclick="frm.txt.value += '3'">
+    <input type=button class="button" value="2" onclick="frm.txt.value += '2'">
+    <input type=button class="button" value="1" onclick="frm.txt.value += '1'"><br>
+    <input type=button class="button" value="+" onclick="frm.txt.value += '+'">
+    <input type=button class="button" value="-" onclick="frm.txt.value += '-'">
+    <input type=button class="button" value="*" onclick="frm.txt.value += '*'"><br>
+    <input type=button class="button" value="/" onclick="frm.txt.value += '/'">
+    <input type=button class="button" value="matlab" onclick="frm.txt.value=eval(frm.txt.value)"><br>
+    <input type=button class="button" value="0" onclick="frm.txt.value += '0'">
+    <input type=button class="button" value="hataa be" onclick="frm.txt.value=''"><br>
+    
+    
+    
+    
+    
+    
+    </form>    
+    
+    </div>
+    <h1>More to come soon.....</h1>
+    </body>    
+</html>
